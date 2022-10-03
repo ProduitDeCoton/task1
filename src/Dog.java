@@ -1,6 +1,9 @@
 public class Dog {
-    protected String name;
-    private int age;
+
+
+    public String name;
+    public int age;
+
 
 
     public Dog(String name, int age) {
@@ -23,4 +26,6 @@ public class Dog {
     public void setAge(int age) {
         this.age = age;
     }
+
+
 }
