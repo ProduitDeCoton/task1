@@ -1,6 +1,6 @@
 public class Dog {
-    private String name;
-    private int age;
+    public String name;
+    public int age;
 
     public Dog(String name, int age) {
         this.name = name;
@@ -22,4 +22,6 @@ public class Dog {
     public void setAge(int age) {
         this.age = age;
     }
+
+
 }
